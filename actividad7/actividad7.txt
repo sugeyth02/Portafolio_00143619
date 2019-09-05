@@ -1,0 +1,34 @@
+#1-----------------------------------------------------------------------------------------------------------------------
+s= initialize;
+int var;
+int Sacardoselementos(stack (s)){
+if(!empty(s)){
+pop(s);
+  if(!empty(s)){
+   var=pop(s);
+   }
+  else{
+   solo tiene un elemento:(;
+   }
+else{
+esta vacio no se puede ejecutar la funcion
+}
+}
+#2-----------------------------------------------------------------------------------------------------------------------
+s= initialize;
+int var, var1;
+int Sacardoselementos(stack (s)){
+if(!empty(s)){
+var1=pop(s);
+  if(!empty(s)){
+   var=pop(s);
+   push(s,var1);
+   push(s,var);
+   }
+  else{
+   solo tiene un elemento:(;
+   }
+else{
+esta vacio no se puede ejecutar la funcion
+}
+}
