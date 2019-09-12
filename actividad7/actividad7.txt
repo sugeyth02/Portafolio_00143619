@@ -32,3 +32,16 @@ else{
 esta vacio no se puede ejecutar la funcion
 }
 }
+#3----------------------------------------------------------------------------------------------------------------------
+s= initialize;
+void vaciarfila(stack(S));
+int ultimo;
+if(!empty(s)){
+do{
+  ultimo=pop(s)
+}while(!empty(s));
+cout<<el ultimo elemento es<<ultimo;
+}
+else{
+cout<<la fila ya esta vacia;
+}
