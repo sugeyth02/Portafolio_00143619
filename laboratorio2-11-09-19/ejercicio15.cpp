@@ -54,6 +54,6 @@ int main(){
     merge_sort(aar,aar_size);
     cout<<"Arreglo ordenado: "<<endl;
     printarr(aar,aar_size);
-/    
+    
     return 0;
 }
