@@ -1,0 +1,16 @@
+Ejercicio 2.3.3
+a) AB+C-
+   A+BC-
+R/=A+B-C
+
+b) ABC+-
+   A-B+C
+
+c) AB-C+DEF-+$
+R/=A-B+C$D+E-F
+
+d) ABCDE-+$*-
+   A*BCDE-+$EF*-
+   A*B$CDE-+EF*-
+   A*B$C+DE-EF*-
+R/=A*B$C+D-E-E*F
