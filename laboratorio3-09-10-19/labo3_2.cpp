@@ -19,13 +19,12 @@ poli solicitardatos(){
 }
 
 float factor(){
-    poli p;
     float n=0;
     float resultado=0;
     cout<<"Ingrese un valor para x: "<<endl;
     cin>>n;
     for (int i=0; i<lista.size(); i++) {
-    resultado+=p.coeficiente*pow(n,p.exponente);
+    resultado+=lista[i].coeficiente*pow(n,lista[i].exponente);
     }
     return resultado;
 }
